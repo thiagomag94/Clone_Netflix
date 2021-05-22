@@ -19,12 +19,29 @@ body{
     color: whitesmoke;
 }
 
+header {
+    background-color: rgba(0,0,0,.50);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    margin-right: 0px;
+    
+  
+}
 header .container {
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: space-between ;
-   margin-left: 10px;
+   
    
 }
 
@@ -32,12 +49,15 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Verdana';
     font-size: 40px;
+    margin-top: 5px;
     margin-bottom: 15px;
+    margin-right: 20px;
+   
 }
 
 
 
-header div nav   a:link {
+header div nav   a {
     color: #AAA;
     margin-right: 20px;
     text-decoration: none;
@@ -45,11 +65,32 @@ header div nav   a:link {
 
 }
 
-header a:hover {
+header div nav a:hover {
     color: #fff;
+   
+    
     
 }
 
+header div nav a i{
+    color:gray;
+}
+header div nav a i:hover{
+    color: #fff;
+}
+
+header nav input {
+    
+    background-color: black;
+    border-style: solid;
+    border-color:rgb(163, 159, 159);
+    border-width: 2px ;
+    border-radius: 3px;
+    width: 30%;
+    height: 30px;
+    color: whitesmoke;
+    
+}
 /*banda principal*/
 
 .filme-principal {
@@ -62,6 +103,7 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .descricao {
@@ -70,13 +112,20 @@ header a:hover {
 }
 
 .titulo {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 3%;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main .container {
-    width: 50%;
+    width: 70%;
+   
+   
+}
+
+.container {
+    margin-left: 4%;
 }
 
 
@@ -86,9 +135,10 @@ main .container {
     border: none;
     color: white;
     padding: 15px;
-    margin-right: 15px;
-    margin-left: 5px;
+    margin-right: 50px;
+    
     margin-top: 10px ;
+   
 }
 
 button:hover {
@@ -96,4 +146,31 @@ button:hover {
     background-color: #e50914;
     border-radius: 3px;
     cursor: pointer;
+    transition: .8s ease all;
+}
+
+
+
+button i {
+    margin-right: 5px;
+}
+
+
+
+.box-filme {
+    display: flex;
+    border-radius: 8px;
+    
+
+
+}
+
+
+
+.carrosel-filmes {
+    margin-left: 4%;
+}
+
+.owl-carousel {
+    margin-bottom: 50px;
 }
