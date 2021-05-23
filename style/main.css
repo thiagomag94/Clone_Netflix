@@ -21,8 +21,8 @@ body{
 
 header {
     background-color: rgba(0,0,0,.50);
-    overflow: hidden;
-    position: fixed;
+   
+    position:fixed;
     width: 100%;
 }
 
@@ -125,7 +125,7 @@ main .container {
 }
 
 .container {
-    margin-left: 4%;
+    margin-left: 3%;
 }
 
 
@@ -158,8 +158,15 @@ button i {
 
 
 .box-filme {
+   
+    
     display: flex;
-    border-radius: 8px;
+    border-radius: 7px;
+    border: 3px;
+    border-style: groove;
+    border-color: rgba(0,0,0,.30);
+    
+    
     
 
 
@@ -167,10 +174,17 @@ button i {
 
 
 
+
+
 .carrosel-filmes {
-    margin-left: 4%;
+    margin-left: 3%;
+
+   
 }
 
 .owl-carousel {
     margin-bottom: 50px;
+    
+    
 }
+

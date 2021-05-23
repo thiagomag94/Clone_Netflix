@@ -1,0 +1,21 @@
+
+function bigImg(x) {
+    
+    x.style.height = "18em";
+    x.style.width = "15em";
+    x.style.boxShadow = "6px 6px 6px rgba(0,0,0,0.50)";
+
+    
+}
+
+function normImg(x) {
+    
+    x.style.height = "100%";
+    x.style.width = "100%";
+    x.style.boxShadow = "none";
+
+    
+}
+
+
+
