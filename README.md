@@ -1,4 +1,5 @@
-# Clone Netflix
+# Clone Netflix 
+### English description
 This project has as objective to create a Netflix clone for practicing front-end skills. It was suggested by DIO (Digital Innovation One) on bootcamp "HTML Web Developer".a
 
 I made a page taking as model and starting point the home page of Netflix. The idea here is to show a large amount of heavy metal bands like an encyclopedia, but as you click on album cover you chose, automatically you will be redirected to youtube music playlist or album. 
