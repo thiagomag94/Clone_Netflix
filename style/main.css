@@ -55,6 +55,11 @@ header .logo {
    
 }
 
+header:hover {
+    background-color: rgb(10, 10, 10);
+    transition:  .3s ease all;
+    
+}
 
 
 header div nav   a {
@@ -93,10 +98,12 @@ header nav input {
     color: whitesmoke;
     display: inline-block;
     
+    
 }
 
 header nav input:hover {
     border-color: #e50914;
+    
 }
 /*banda principal*/
 
