@@ -1,8 +1,8 @@
 
 function bigImg(x) {
     
-    x.style.height = "18em";
-    x.style.width = "15em";
+    x.style.height = "109%";
+    x.style.width = "103%";
     x.style.boxShadow = "6px 6px 6px rgba(0,0,0,0.50)";
 
     
