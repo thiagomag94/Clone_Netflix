@@ -15,11 +15,16 @@ São apenas as "células embrionárias" (Sepultura easter egg rsrs) e continuare
 
 
 ## Screenshots
-
+### primeira versão
 ![1](https://user-images.githubusercontent.com/20890806/119268209-53e06400-bbc8-11eb-8721-2754a1c7ee13.PNG)
 
 
 ![responsive](https://user-images.githubusercontent.com/20890806/119268213-58a51800-bbc8-11eb-9280-cfa6d6f612bd.PNG)
+
+### segunda versão
+![2](https://user-images.githubusercontent.com/20890806/121970019-06c95b00-cd4c-11eb-8b3e-c53f7adc9505.PNG)
+![responsive2](https://user-images.githubusercontent.com/20890806/121970024-0b8e0f00-cd4c-11eb-990b-a9a5917bde76.PNG)
+
 
 ## Technologies / Tecnologias
 
