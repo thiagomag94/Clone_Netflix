@@ -76,7 +76,7 @@ header div nav   a {
     margin-right: 20px;
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     transform: scale(0.5);
    
     
@@ -161,7 +161,7 @@ main .degrade-1 {
     height: inherit;
     position: relative;
     top: 0;
-    background:linear-gradient(to top, var(--preta) 5% , transparent ); 
+    background:linear-gradient(to top, var(--preta) 15% , transparent ); 
     background-size: 100%;
     background-repeat: no-repeat;
     
@@ -173,7 +173,7 @@ main .degrade-2 {
     height: inherit;
     position: relative;
     top: 0;
-    background:linear-gradient(to right,var(--preta) , transparent ) ;
+    background:linear-gradient(to right,var(--preta) 20% , transparent ) ;
     background-size: 100%;
     background-repeat: no-repeat;
    
@@ -202,6 +202,7 @@ div#div-botoes{
     color: white;
     padding: 25px;
     margin-right: 20px;
+    font-size: 18px;
 
     
     margin-top: 10px ;
@@ -229,15 +230,17 @@ button i {
    
     
     display: flex;
-    border-radius: 7px;
-    border: 3px;
-    border-style: groove;
-    border-color: rgba(0,0,0,.30);
+    border-radius: 3px;
+   
+    
     
     
     
 
 
+}
+h3.titulo-carousel {
+    font-size: 30px;
 }
 
 
@@ -246,8 +249,8 @@ button i {
 
 .carrosel-filmes {
     margin-left: 3%;
-    position:absolute;
-    top:70%;
+    position: relative;
+    bottom: 280px;
     
 
 

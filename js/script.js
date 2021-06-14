@@ -1,6 +1,6 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:5,
+    margin:7,
     nav:false,
     responsive:{
         0:{
@@ -15,4 +15,14 @@ $('.owl-carousel').owlCarousel({
     }
     
 })
+
+/*function (){
+    head = document.getElementsByTagName('header')
+    if (window.scrollY > 0) {
+         
+    }
+    else {
+          head.style.backgroundColor = transparent;
+    }
+}*/
 

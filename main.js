@@ -18,5 +18,23 @@ function normImg(x) {
     
 }
 
+(function () {
+    var head = document.getElementById('header'); // colocar em cache
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0)  {
+           
+            head.style.backgroundColor = "black"; 
+            
+
+        }
+        
+        else {
+            head.style.backgroundColor = "transparent";
+            head.style.transition = "all ease 0.3s";
+
+        }
+    });
+})();
+
 
 
