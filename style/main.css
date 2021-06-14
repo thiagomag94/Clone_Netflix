@@ -161,7 +161,7 @@ main .degrade-1 {
     height: inherit;
     position: relative;
     top: 0;
-    background:linear-gradient(to top, var(--preta) 15% , transparent ); 
+    background:linear-gradient(to top, var(--preta) 20% , transparent ); 
     background-size: 100%;
     background-repeat: no-repeat;
     
@@ -173,7 +173,7 @@ main .degrade-2 {
     height: inherit;
     position: relative;
     top: 0;
-    background:linear-gradient(to right,var(--preta) 20% , transparent ) ;
+    background:linear-gradient(to right,var(--preta) 27% , transparent ) ;
     background-size: 100%;
     background-repeat: no-repeat;
    
@@ -240,7 +240,7 @@ button i {
 
 }
 h3.titulo-carousel {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -250,7 +250,7 @@ h3.titulo-carousel {
 .carrosel-filmes {
     margin-left: 3%;
     position: relative;
-    bottom: 280px;
+    bottom: 170px;
     
 
 
