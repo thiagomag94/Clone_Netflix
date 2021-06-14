@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --vermelho: #e50914;
-    --preta: #141414;
+    --preta: black;
 }
+
+
+
 
 * {
     padding:0px;
@@ -15,21 +19,23 @@
 
 body{
     background: var(--preta);
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     color: whitesmoke;
 }
 
 header {
-    background-color: rgba(0,0,0,.50);
+    background-color: transparent;
    
     position:fixed;
     width: 100%;
+    z-index: 4000000;
 }
 
 h3 {
-    margin-top: 30px;
+    
     margin-bottom: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
 nav {
     margin-right: 0px;
@@ -41,6 +47,7 @@ header .container {
    flex-direction: row;
    align-items: center;
    justify-content: space-between ;
+  
    
    
 }
@@ -52,27 +59,33 @@ header .logo {
     margin-top: 5px;
     margin-bottom: 15px;
     margin-right: 20px;
+    margin-left: 3%;
+    
    
 }
 
 header:hover {
-    background-color: rgb(10, 10, 10);
-    transition:  .3s ease all;
+    background-color: rgba(0,0,0,0.3);
+    transition:  .5s ease all;
     
 }
 
 
 header div nav   a {
-    color: #AAA;
+    color: rgb(233, 225, 225);
     margin-right: 20px;
     text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    transform: scale(0.5);
+   
     
 
 }
 
 header div nav a:hover {
     color:#e50914;
-    font-size: 17px;
+    transform: scale(1.0);
    
    
     
@@ -80,7 +93,8 @@ header div nav a:hover {
 }
 
 header div nav a i{
-    color:gray;
+    color:rgb(233, 223, 223);
+    
 }
 header div nav a i:hover{
     color: #e50914;
@@ -88,30 +102,39 @@ header div nav a i:hover{
 
 header nav input {
     
-    background-color: black;
-    border-style: solid;
-    border-color:rgb(163, 159, 159);
+    background-color:transparent;
+    border-style: solid black;
+    border-color:rgb(255, 249, 249);
     border-width: 2px ;
-    border-radius: 3px;
+    border-radius: 2px;
     width: 30%;
     height: 30px;
     color: whitesmoke;
     display: inline-block;
+    outline: none;
+   
     
     
 }
 
 header nav input:hover {
+    border-width: 3px;
     border-color: #e50914;
+    box-shadow:  3px 1px 5px;
+    width:350px;
+  
     
 }
 /*banda principal*/
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/korn/background.jpg');
-    height: 500px;
+    background: url('/img/korn/novo.jpg') ;
+    
+    height: 100vh;
     background-size: cover;
+    
+    
 
     display: flex;
     flex-direction: column;
@@ -122,34 +145,63 @@ header nav input:hover {
 
 .descricao {
     margin-bottom: 30px;
-    font-size: 18.5px;
+    font-size: 22px;
+    color:rgb(179, 178, 178);
 }
 
 .titulo {
-    margin-top: 10%;
+    
     margin-bottom: 3%;
     font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .degrade-1 {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    top: 0;
+    background:linear-gradient(to top, var(--preta) 5% , transparent ); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+   
+}
+main .degrade-2 {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    top: 0;
+    background:linear-gradient(to right,var(--preta) , transparent ) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+   
+   
 }
 
 main .container {
-    width: 70%;
-   
-   
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: 50%;
 }
 
-.container {
-    margin-left: 3%;
-}
 
+
+div#div-botoes{
+    margin-top: 3%;
+}
 
 
 .botoes {
-    background-color:rgba(0,0,0,.50);
+    background-color:rgba(31, 29, 29, 0.5);
     border: none;
+    border-radius: 7px;
     color: white;
-    padding: 15px;
-    margin-right: 50px;
+    padding: 25px;
+    margin-right: 20px;
 
     
     margin-top: 10px ;
@@ -160,7 +212,7 @@ main .container {
 button:hover {
    
     background-color: #e50914;
-    border-radius: 3px;
+    border-radius: 7px;
     cursor: pointer;
     transition: .8s ease all;
 }
@@ -194,12 +246,17 @@ button i {
 
 .carrosel-filmes {
     margin-left: 3%;
+    position:absolute;
+    top:70%;
+    
+
 
    
 }
 
 .owl-carousel {
     margin-bottom: 50px;
+   
     
     
 }
