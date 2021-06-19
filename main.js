@@ -1,36 +1,30 @@
-
-function bigImg(x) {
-    
-    x.style.height = "110%";
-    x.style.width = "103%";
-    x.style.boxShadow = "6px 6px 6px rgba(0,0,0,0.50)";
-    x.style.transition = " 0.61803399s ease all";
+//faz a busca aparecer
+function showSearch() {
+    const busca = document.getElementById('buscar')                                                                              
+    busca.style.display = "inline-block";
+    busca.style.transition = "all ease 5s";
 
     
 }
 
-function normImg(x) {
-    
-    x.style.height = "100%";
-    x.style.width = "100%";
-    x.style.boxShadow = "none";
 
-    
-}
-
+//muda a cor no menu horizontal quando rola o scroll
 (function () {
     var head = document.getElementById('header'); // colocar em cache
     window.addEventListener('scroll', function () {
         if (window.scrollY > 0)  {
            
-            head.style.backgroundColor = "black"; 
+            head.style.backgroundColor = "rgba(23, 23, 23, 1)"; 
             
 
         }
         
         else {
+            const busca = document.getElementById('buscar')
             head.style.backgroundColor = "transparent";
             head.style.transition = "all ease 0.3s";
+            busca.style.display= "none";
+            busca.style.transition = "all ease 5s";
 
         }
     });

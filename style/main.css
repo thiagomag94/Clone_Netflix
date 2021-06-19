@@ -39,9 +39,12 @@ h3 {
 }
 nav {
     margin-right: 0px;
+   
+    
     
   
 }
+
 header .container {
    display: flex;
    flex-direction: row;
@@ -55,7 +58,7 @@ header .container {
 header .logo {
     color: var(--vermelho);
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 15px;
     margin-right: 20px;
@@ -73,19 +76,21 @@ header:hover {
 
 header div nav   a {
     color: rgb(233, 225, 225);
-    margin-right: 20px;
+    margin-right: 15px;
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
-    transform: scale(0.5);
+    font-size: 17px;
+    transform: scale(0.70);
+
    
     
-
 }
 
-header div nav a:hover {
+
+
+.menu:hover {
     color:#e50914;
-    transform: scale(1.0);
+    
    
    
     
@@ -103,28 +108,29 @@ header div nav a i:hover{
 header nav input {
     
     background-color:transparent;
-    border-style: solid black;
-    border-color:rgb(255, 249, 249);
-    border-width: 2px ;
+    border-color: rgb(233, 223, 223);
+    border-style: solid;
+    border-width: 1px ;
     border-radius: 2px;
-    width: 30%;
+    
+   
+    width:350px;
+    
     height: 30px;
     color: whitesmoke;
-    display: inline-block;
+    display: none;
     outline: none;
    
     
     
 }
 
-header nav input:hover {
-    border-width: 3px;
-    border-color: #e50914;
-    box-shadow:  3px 1px 5px;
-    width:350px;
-  
-    
+.voltar {
+    position: inline-block;
+    align-self: center;
 }
+    
+
 /*banda principal*/
 
 .filme-principal {
@@ -186,6 +192,7 @@ main .container {
     top: 20%;
     left: 3%;
     width: 50%;
+    
 }
 
 
@@ -200,7 +207,7 @@ div#div-botoes{
     border: none;
     border-radius: 7px;
     color: white;
-    padding: 25px;
+    padding: 15px;
     margin-right: 20px;
     font-size: 18px;
 
@@ -231,6 +238,7 @@ button i {
     
     display: flex;
     border-radius: 3px;
+    width:100%;
    
     
     
@@ -241,24 +249,35 @@ button i {
 }
 h3.titulo-carousel {
     font-size: 25px;
+    margin-bottom: 5px;
 }
 
 
+div.item {
+    width: 220px;
+    transform: scale(0.9);
+}
 
+div.item:hover {
+    transform: scale(1) ;
+    transition: all ease 0.3s;
+}
 
 
 .carrosel-filmes {
     margin-left: 3%;
     position: relative;
-    bottom: 170px;
-    
+    bottom: 40px;
+       
+}
 
-
-   
+#hv-id:hover {
+    margin-left: 0px;
 }
 
 .owl-carousel {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    margin-top: 1px;
    
     
     
